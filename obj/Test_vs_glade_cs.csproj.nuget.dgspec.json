@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/daniel/Documents/personnal_work/Dotnet/Test_vs_glade_cs/Test_vs_glade_cs.csproj": {}
+  },
+  "projects": {
+    "/home/daniel/Documents/personnal_work/Dotnet/Test_vs_glade_cs/Test_vs_glade_cs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniel/Documents/personnal_work/Dotnet/Test_vs_glade_cs/Test_vs_glade_cs.csproj",
+        "projectName": "Test_vs_glade_cs",
+        "projectPath": "/home/daniel/Documents/personnal_work/Dotnet/Test_vs_glade_cs/Test_vs_glade_cs.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/personnal_work/Dotnet/Test_vs_glade_cs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GtkSharp": {
+              "target": "Package",
+              "version": "[3.24.24.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.24, 6.0.24]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
