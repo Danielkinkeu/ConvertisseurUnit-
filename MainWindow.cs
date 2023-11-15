@@ -6,13 +6,13 @@ namespace Test_vs_glade_cs
 {
     class MainWindow : Window
     {
-        [UI] private Label _label1 = null;
+        // [UI] private Label _label1 = null;
         [UI] private Button _button1 = null;
         [UI] private ComboBox choix = null;
         [UI] private ListStore liststoreChoix = null;
         private string valChoisie = null;
 
-        private int _counter;
+        // private int _counter;
 
         public MainWindow() : this(new Builder("MainWindow.glade")) { }
 
@@ -54,10 +54,10 @@ namespace Test_vs_glade_cs
 
         private void Button1_Clicked(object sender, EventArgs a)
         {
-            Convertisseur conv = new(valChoisie);
-            conv.Show();
-            // _counter++;
-            // _label1.Text = "Hello World! This button has been clicked " + _counter + " time(s).";
+          
+                 var conv = new Convertisseur(valChoisie);
+                conv.ShowNow();
+            
         }
     }
 }
